@@ -56,6 +56,52 @@ toDouble()
 //    println(a.uppercase())
 
 // Arrays
-    var age = arrayOf(1,2,3,4)
-    println("First element of the array: " + age[0])
+//    var age = arrayOf(1,2,3,4)
+//    println("First element of the array: " + age[0])
+
+// Array List
+    /*
+    var ageArrayList = ArrayList<Int>()
+    ageArrayList.add(10)
+//    ageArrayList.add(index: 1,element: 15)
+    ageArrayList.add(20)
+
+    println("First element of ArrayList = " + ageArrayList [0])
+    println("First element of ArrayList = " + ageArrayList [1])
+    ageArrayList.remove(element = 10)
+
+    println(ageArrayList)
+
+    var myMixArrayList = ArrayList<Any>()
+    myMixArrayList.add("Volkswagen")
+    myMixArrayList.add(5)
+    myMixArrayList.add(8.2)
+    myMixArrayList.add(1.4f)
+
+    println(myMixArrayList)
+    */
+
+//    Sets
+    /*
+    var myArray = arrayListOf<Any>("Kotlin","Python","JavaScript","C","C++","Java","Kotlin")
+
+    println("Size of Array is : ${myArray.size}")
+    println(myArray.last())
+
+    var mySet = setOf<Any>("Kotlin","Python","JavaScript","C","C++","Java","Kotlin")
+    println("Size of Set is: ${mySet.size}")
+    println(myArray.last())
+
+     */
+
+// Maps
+
+    var age = mapOf<String,Int>("Dhoni" to 38, "Kohli" to 33)
+    println("Age of Dhoni is ${age["Dhoni"]} ")
+    println("Age of Kohli is ${age["Kohli"]} ")
+
+    var players = mutableMapOf<String,Int>("Rohit" to 34)
+    players.put("Rahul",28)
+    println(players)
+
 }
