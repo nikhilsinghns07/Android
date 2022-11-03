@@ -96,6 +96,7 @@ toDouble()
 
 // Maps
 
+/*
     var age = mapOf<String,Int>("Dhoni" to 38, "Kohli" to 33)
     println("Age of Dhoni is ${age["Dhoni"]} ")
     println("Age of Kohli is ${age["Kohli"]} ")
@@ -103,5 +104,58 @@ toDouble()
     var players = mutableMapOf<String,Int>("Rohit" to 34)
     players.put("Rahul",28)
     println(players)
+*/
+
+//  Operators in Kotlin
+
+//    var num1 : Double = 8.4
+//    var num2 : Double = 4.2
+//    var result : Double = 0.0
+//    result = num1+num2
+
+//    println("Num1 + NUm2 = ${result}")
+//    println("Num1 - NUm2 = ${num2-num1}")
+//    println("Num1 * NUm2 = ${num1*num2}")
+//    println("Num1 / NUm2 = ${num1/num2}")
+//    println("Num1 % NUm2 = ${num2%num1}")
+
+// Assignment Operators
+
+//
+/*
+    var x:Int = 20
+    var y: Int = 14
+    var z: Int = 0
+
+    z = x+y // z = 34
+    println(z)
+
+    z += x
+    println(z)
+
+    z -= x
+    println(z)
+
+    z *= x
+    println(z)
+
+    z /= x
+    println(z)
+
+    z %= x
+    println(z)
+*/
+
+    // Unary Operators
+
+    var number: Double = 7.6
+    var isCheck: Boolean = true
+
+    println(+number)
+    println(-number)
+    println(++number)
+    println(--number)
+    println(!isCheck)
+
 
 }
